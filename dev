@@ -1,12 +1,12 @@
 [loadbalancer]
-lb01
+xds-lb01
 
 [webserver]
-app01
-app02
+xds-app01
+xds-app02
 
 [database]
-db01
+xds-db01
 
 [control]
-control ansible_connection=local
+xds-control ansible_connection=local
